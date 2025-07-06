@@ -57,52 +57,6 @@ const Contact = () => {
         }
       );
 
-      // Left column animation
-      gsap.fromTo(
-        leftColumnRef.current,
-        {
-          opacity: 0,
-          x: -100,
-          rotationY: -45,
-        },
-        {
-          opacity: 1,
-          x: 0,
-          rotationY: 0,
-          duration: 1,
-          ease: "back.out(1.7)",
-          scrollTrigger: {
-            trigger: leftColumnRef.current,
-            start: "top 85%",
-            end: "bottom 20%",
-            toggleActions: "play none none reverse",
-          },
-        }
-      );
-
-      // Form animation
-      gsap.fromTo(
-        formRef.current,
-        {
-          opacity: 0,
-          x: 100,
-          rotationY: 45,
-        },
-        {
-          opacity: 1,
-          x: 0,
-          rotationY: 0,
-          duration: 1,
-          ease: "back.out(1.7)",
-          scrollTrigger: {
-            trigger: formRef.current,
-            start: "top 85%",
-            end: "bottom 20%",
-            toggleActions: "play none none reverse",
-          },
-        }
-      );
-
       // Contact details stagger animation
       gsap.fromTo(
         contactDetailsRef.current,
@@ -151,29 +105,6 @@ const Contact = () => {
         }
       );
 
-      // Form fields animation
-      gsap.fromTo(
-        formFieldsRef.current,
-        {
-          opacity: 0,
-          y: 30,
-          scale: 0.9,
-        },
-        {
-          opacity: 1,
-          y: 0,
-          scale: 1,
-          duration: 0.5,
-          ease: "power2.out",
-          stagger: 0.1,
-          scrollTrigger: {
-            trigger: formFieldsRef.current[0],
-            start: "top 85%",
-            end: "bottom 20%",
-            toggleActions: "play none none reverse",
-          },
-        }
-      );
     }, contactRef);
 
     return () => ctx.revert();

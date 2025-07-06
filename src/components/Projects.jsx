@@ -140,29 +140,6 @@ const Projects = () => {
         }
       );
 
-      // Featured projects stagger animation
-      gsap.fromTo(featuredProjectsRef.current,
-        {
-          opacity: 0,
-          y: 100,
-          scale: 0.8
-        },
-        {
-          opacity: 1,
-          y: 0,
-          scale: 1,
-          duration: 0.8,
-          ease: "power3.out",
-          stagger: 0.2,
-          scrollTrigger: {
-            trigger: featuredProjectsRef.current[0],
-            start: "top 85%",
-            end: "bottom 20%",
-            toggleActions: "play none none reverse"
-          }
-        }
-      );
-
       // View All button animation
       gsap.fromTo(viewAllButtonRef.current,
         {
@@ -183,24 +160,6 @@ const Projects = () => {
         }
       );
 
-      // Non-featured projects animation (when expanded)
-      if (showAllProjects && nonFeaturedProjectsRef.current.length > 0) {
-        gsap.fromTo(nonFeaturedProjectsRef.current,
-          {
-            opacity: 0,
-            y: 50,
-            scale: 0.9
-          },
-          {
-            opacity: 1,
-            y: 0,
-            scale: 1,
-            duration: 0.6,
-            ease: "power2.out",
-            stagger: 0.1
-          }
-        );
-      }
 
     }, projectsRef);
 

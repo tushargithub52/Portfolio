@@ -57,20 +57,6 @@ const Skills = () => {
         }
       );
 
-      // Floating animation for skill cards
-      skillCardsRef.current.forEach((card, index) => {
-        if (card) {
-          gsap.to(card, {
-            y: -10,
-            duration: 2 + (index * 0.2),
-            ease: "power2.inOut",
-            repeat: -1,
-            yoyo: true,
-            delay: index * 0.3
-          });
-        }
-      });
-
     }, skillsRef);
 
     return () => ctx.revert();
