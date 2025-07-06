@@ -19,7 +19,7 @@ const Projects = () => {
       title: "ShopifyX",
       description:
         "A modern e-commerce platform built with React.js (frontend) and JSON Server (fake backend API) to simulate a real-world shopping experience. This app supports both Admin and User roles with full authentication and authorization features.",
-      image: "../assets/shopifyx.png",
+      image: "/assets/shopifyx.png",
       technologies: [
         "React.js",
         "Redux",
@@ -36,7 +36,7 @@ const Projects = () => {
       title: "VanillaOS",
       description:
         "VanillaOS is a fully interactive desktop environment built entirely using Vanilla JavaScript, SCSS, and DOM APIs — with no external frameworks or libraries. It simulates the experience of a real operating system right inside the browser.⚡️ Inspired by Windows OS - Developed from scratch to showcase deep frontend skills, creativity, and UI logic mastery.",
-      image: "../assets/vanillaos.png",
+      image: "/assets/vanillaos.png",
       technologies: [
         "Vanilla JavaScript (ES6+)",
         "SCSS",
@@ -51,7 +51,7 @@ const Projects = () => {
       title: "Hirrd",
       description:
         "Hirrd is a modern job portal built using React.js, Shadcn UI, Supabase, Tailwind CSS, and Clerk. It enables job seekers and recruiters to seamlessly connect through an intuitive interface.",
-      image: "../assets/hirrd.png",
+      image: "/assets/hirrd.png",
       technologies: [
         "React.js",
         "Shadcn UI",
@@ -67,7 +67,7 @@ const Projects = () => {
       title: "Recipedia",
       description:
         "Recipedia is a sleek and intuitive web application built with React, enabling users to create, manage, and explore recipes effortlessly. All user-created data is saved to the browser's local storage, ensuring a persistent experience without the need for a backend.",
-      image: "../assets/recipedia.png",
+      image: "/assets/recipedia.png",
       technologies: ["React.js", "React-Router-DOM", "Tailwind CSS", "React Toastify", "LocalStorage"],
       liveUrl: "https://recipedia-sooty.vercel.app/",
       githubUrl: "https://github.com/tushargithub52/Recipedia",
@@ -77,7 +77,7 @@ const Projects = () => {
       title: "DriveBox",
       description:
         "DriveBox is a Google Drive clone built using MongoDB, Express, Node.js, and EJS. It allows users to register, log in, upload, view, and download files seamlessly with Cloudinary for file storage.",
-      image: "../assets/drivebox.png",
+      image: "/assets/drivebox.png",
       technologies: ["Node.js", "Express", "MongoDB", "Cloudinary", "EJS"],
       liveUrl: "https://github.com/tushargithub52/DriveBox",
       githubUrl: "https://github.com/tushargithub52/DriveBox",
@@ -87,7 +87,7 @@ const Projects = () => {
       title: "EmpTrack - EMS portal",
       description:
         "The Employee Management System (EMS) is a React-based web application designed to streamline employee task management. It provides an admin panel for managing employees and assigning tasks, while employees can track their new, active, completed, and failed tasks in a structured manner.",
-      image: "../assets/emptrack.png",
+      image: "/assets/emptrack.png",
       technologies: ["React.js", "Tailwind CSS", "React hooks", "LocalStorage"],
       liveUrl: "https://github.com/tushargithub52/EmpTrack---EMS-portal",
       githubUrl: "https://github.com/tushargithub52/EmpTrack---EMS-portal",
@@ -97,7 +97,7 @@ const Projects = () => {
       title: "To-Do List",
       description:
         "A simple and responsive To-Do List web application built as part of my learning journey. It allows users to add, view, and delete tasks with a clean UI.",
-      image: "../assets/TODO.png",
+      image: "/assets/TODO.png",
       technologies: ["React.js", "Tailwind CSS", "LocalStorage"],
       liveUrl: "https://todo-list-ashy-pi-24.vercel.app/",
       githubUrl: "https://github.com/tushargithub52/Todo-List",
@@ -107,7 +107,7 @@ const Projects = () => {
       title: "GithubProfileFinder",
       description:
         "A basic website to get the details of any Github user, with the help of GitHub API",
-      image: "../assets/githubprofilefinder.png",
+      image: "/assets/githubprofilefinder.png",
       technologies: ["HTML5", "CSS", "JavaScript", "DOM"],
       liveUrl: "https://tushargithub52.github.io/GithubProfileFinder/",
       githubUrl: "https://github.com/tushargithub52/GithubProfileFinder",
